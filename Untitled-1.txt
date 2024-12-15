@@ -1,0 +1,139 @@
+
+1. Go to Bluehost.com
+2. Click "Get Started"
+3. Choose a hosting plan (recommended: Choice Plus for business)
+4. Choose/Register domain name (e.g., dainab.com)
+5. Complete purchase with:
+   - Domain privacy protection
+   - SSL certificate
+   - At least 12 months hosting
+
+1. Login to Bluehost control panel
+2. Go to "Advanced" section
+3. Access File Manager or cPanel
+4. Create necessary directories:
+   - public_html (main website folder)
+   - backup (for website backups)
+
+
+1. Organize your local files:
+   - index.html
+   - styles.css
+   - script.js
+   - images/
+   - other assets
+
+2. Update any absolute paths in your code
+3. Minify your CSS and JavaScript files:
+   - Use tools like minifier.org
+   - Save minified versions
+
+Method 1 - File Manager:
+1. Open File Manager in cPanel
+2. Navigate to public_html
+3. Upload all files maintaining structure
+4. Set file permissions:
+   - HTML/CSS/JS files: 644
+   - Images: 644
+   - Directories: 755
+
+Method 2 - FTP:
+1. Download FileZilla or similar FTP client
+2. Get FTP credentials from Bluehost
+3. Connect to your server
+4. Upload files to public_html   
+
+
+1. In Bluehost dashboard:
+   - Go to "Security" section
+   - Click "SSL Certificates"
+   - Install Free SSL Certificate
+   - Wait for activation (usually 24 hours)
+
+2. Enable SSL:
+   - Go to Settings > Security
+   - Enable "Force HTTPS"
+
+
+1. In Bluehost dashboard:
+   - Go to "Email & Office"
+   - Click "Create Email Account"
+2. Set up email accounts:
+   - contact@dainab.com
+   - info@dainab.com
+   - Set strong passwords   
+
+1. In DNS Management:
+   - Verify A record points to your hosting IP
+   - Add CNAME for www
+   - Set up MX records for email
+   - Add TXT records for email verification  
+
+1. In Bluehost dashboard:
+   - Go to "Backup"
+   - Enable CodeGuard Basic
+2. Configure:
+   - Daily backups
+   - 30-day retention
+   - Automated restoration    
+
+
+1. Enable Caching:
+   - Go to "Performance" in cPanel
+   - Enable caching options
+
+2. Configure CDN (Cloudflare):
+   - Create Cloudflare account
+   - Add your website
+   - Update nameservers in Bluehost
+   - Enable CDN features   
+
+1. Test website functionality:
+   - Check all pages load
+   - Verify forms work
+   - Test mobile responsiveness
+   - Check SSL (https://)
+
+2. Test email:
+   - Send test emails
+   - Check spam settings
+   - Verify auto-responders
+
+3. Performance testing:
+   - Use GTmetrix
+   - Check PageSpeed Insights
+   - Verify mobile performance   
+
+
+1. Set up monitoring:
+   - Google Analytics
+   - Google Search Console
+   - Uptime monitoring
+
+2. Create maintenance schedule:
+   - Weekly backups verification
+   - Monthly performance checks
+   - Quarterly security audits   
+
+Create a document with:
+1. Login credentials (store securely)
+2. DNS settings
+3. Email configurations
+4. Backup procedures
+5. Emergency contacts
+6. Maintenance checklist   
+
+
+1. Use strong passwords
+2. Enable two-factor authentication
+3. Keep regular backups
+4. Update contact information
+5. Monitor security logs
+6. Keep software updated
+
+
+Save Bluehost support:
+- Phone: 24/7 support number
+- Live chat: Support URL
+- Email: Support email
+- Knowledge base URL
